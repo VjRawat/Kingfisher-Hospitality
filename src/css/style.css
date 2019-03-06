@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.picnic a:hover {
+  background: pink; }
+
+.icon {
+  height: 3rem;
+  width: 2rem; }
+
+.card {
+  cursor: pointer;
+  transition: 1s; }
+  .card:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 2px 2px 4px 6px #eee6; }
