@@ -15,3 +15,10 @@
   .card:hover {
     transform: translateY(-0.5rem);
     box-shadow: 2px 2px 4px 6px #eee6; }
+
+.textPD {
+  padding: 5.5rem; }
+
+.rs-img {
+  height: 18.8rem;
+  width: 100%; }
