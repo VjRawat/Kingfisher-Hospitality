@@ -17,5 +17,4 @@ npm install
 ```bash
 npm start
 ```
-
-Files are compiled into /src
+© Copyright - Kingfisherhospitality.com 
