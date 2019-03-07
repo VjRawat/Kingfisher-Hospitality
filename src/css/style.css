@@ -22,3 +22,16 @@
 .rs-img {
   height: 18.8rem;
   width: 100%; }
+
+footer {
+  font-size: 1.1rem; }
+  footer iframe {
+    height: 100%;
+    width: 100%; }
+
+@media only screen and (min-width: 320px) and (max-width: 772px) {
+  footer {
+    padding: 0;
+    text-align: justify; }
+    footer div:not(:last-child) {
+      padding-bottom: 2rem; } }
