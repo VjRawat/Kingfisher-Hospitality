@@ -35,3 +35,6 @@ footer {
     text-align: justify; }
     footer div:not(:last-child) {
       padding-bottom: 2rem; } }
+
+.aboutus {
+  margin: 0 auto; }
