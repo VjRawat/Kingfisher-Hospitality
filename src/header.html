@@ -15,8 +15,8 @@
                         <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
                         <li class="nav-item"><a href="contactUs.html" class="nav-link">ContactUs</a></li>
                         <li class="nav-item dropdown">
-                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">PicnicSpots</a>
-                            <div class="dropdown-menu picnic">
+                            <a onclick="myFunction()" class="nav-link dropdown-toggle picnicSpot" data-toggle="dropdown" >PicnicSpots</a>
+                            <div class="dropdown-menu picnic" id="picnicSpot">
                                 <a href="" class="dropdown-item">Kingfisher Aravali Resort</a>
                                 <a href="" class="dropdown-item">Farm House For Party</a>
                                 <a href="" class="dropdown-item">Jungle Adventure Retreat</a>
@@ -32,3 +32,12 @@
                 </div>
         </div>
     </nav>
+
+
+    <!-- Dropdown Script -->
+ <!-- When the user clicks on the button, toggle between hiding and showing the dropdown content  -->
+<script>
+    function myFunction(){
+        document.getElementById("picnicSpot").classList.toggle("show");
+    }
+</script>
