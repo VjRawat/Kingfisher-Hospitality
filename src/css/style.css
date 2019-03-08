@@ -50,3 +50,6 @@ footer {
     transform: scaleX(5px);
     opacity: .7;
     box-shadow: 3px 3px 5px 4px #fff; }
+
+.picnicSpot {
+  cursor: pointer; }
